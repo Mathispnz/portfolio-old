@@ -8,10 +8,10 @@ export default class Navbar extends Component {
             <div className="navbar">
                 <nav className="nav-display">
                     <Link to='/home'><li>Home</li></Link>
-                    <li>Work</li>
+                    <Link to='/work'><li>Work</li></Link>
                     <Link to='/cv'><li>CV</li></Link>
                     <Link to='/about'><li>About Me</li></Link>
-                    <li>Contact</li>
+                    <Link to='/contact'><li>Contact</li></Link>
                 </nav>
             </div>
         )

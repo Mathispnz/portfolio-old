@@ -1,0 +1,48 @@
+.work {
+    background-color: lightgrey;
+}
+.company-title {
+    color: #f70f72;
+}
+.work-cont {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    align-items: flex-start;
+    // height: 800px;
+}
+.work-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 30vw;
+    height: 45vw;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.5s;
+}
+.work-item:hover {
+    transition: 0.5s;
+    bottom: 10px;
+    left: 10px;
+}
+.amex {
+    background-image: url('../images/amex.png');
+}
+.avene {
+    background-image: url('../images/avene.png');
+    margin-left: -100px;
+    margin-top: 20px;
+}
+.ixina {
+    background-image: url('../images/ixina.png');
+    margin-left: -100px;
+    margin-top: 40px;
+}
+.maria-galland {
+    background-image: url('../images/maria-galland.png');
+    margin-left: -100px;
+    margin-top: 60px;
+}

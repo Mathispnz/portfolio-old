@@ -17,7 +17,7 @@ export default class About extends Component {
           center: {lat: 48.8534, lng: 2.3488},
           zoom: 13
         });
-        const marker = new window.google.maps.Marker({
+        new window.google.maps.Marker({
             position: {lat: 48.8557241, lng: 2.3256659},
             map: map
         })
@@ -44,9 +44,7 @@ export default class About extends Component {
 
                 <section className="about-live">
                     <h2>Where do I live ?</h2>
-                    <div id="map">
-
-                    </div>
+                    <div id="map"></div>
                 </section>
             </div>
         )
